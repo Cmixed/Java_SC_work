@@ -1,0 +1,11 @@
+{
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "git.path": "D:/Application_Code/Git/mingw64/bin/git.exe",
+    "editor.rename.enablePreview": true,
+    "git.enabled": true,
+    "gitlens.remotes": [
+
+    ]
+}
