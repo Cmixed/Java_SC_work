@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestZoo",
+            "request": "launch",
+            "mainClass": "Chap04.TestZoo",
+            "projectName": "Java_SC_work_3f6d9eea"
+        },
+        {
+            "type": "java",
             "name": "Student",
             "request": "launch",
             "mainClass": "Student",
