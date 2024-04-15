@@ -23,7 +23,11 @@ public class TestZoo {
                 animals[i] = new Dog(name, w);
             }
             if (x==2) {
-                
+                animals[i] = new Cat();
+                System.out.println("输入小猫姓名： ");
+                String name = sc.next();
+                double w = r.nextDouble(20);
+                animals[i] = new Cat(name, w);
             }
         }
 
@@ -41,8 +45,13 @@ public class TestZoo {
                 }
             }
             if (x == 2) {
-                for(int j=0; j<animals.length; j++) {
-                    animals[i].eat();
+                 for(int j=0; j<animals.length; j++) {
+                    animals[i].setWeight(r.nextInt(20));
+                    System.out.println(
+                        animals[i].getName()
+                        + "体重： "
+                        + animals[i].getWeight()
+                    );
                 }
             }
         }
