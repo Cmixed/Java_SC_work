@@ -19,7 +19,7 @@ public class TestZoo {
                 animals[i] = new Dog();
                 System.out.println("输入小狗姓名： ");
                 String name = sc.next();
-                double w = r.nextDouble(bound:20);
+                double w = r.nextDouble(20);
                 animals[i] = new Dog(name, w);
             }
             if (x==2) {
