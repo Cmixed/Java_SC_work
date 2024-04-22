@@ -1,7 +1,7 @@
 package Chap04;
 
 abstract public class Animal {
-    
+
     private String name;
     private double weight;
 
@@ -13,14 +13,13 @@ abstract public class Animal {
         this.name = name;
     }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
-
     public double getWeight() {
         return weight;
     }
 
-    abstract public void eat();
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
+    abstract public void eat();
 }
